@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    font-size: 25px;
+}
+
+.nav-link{
+    color: $color-texto;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+a:hover{
+    text-decoration: underline $color-fondo;
+}
+
+.tarjetasIndex{
+    background-color: $color-secundario
+}

@@ -1,0 +1,30 @@
+// 3- Variables 
+/* las variables siempre vanm arriba de todo */
+@import "./variables/colores.scss";
+@import "./variables/fuentes";
+
+body {
+    background-color: $color-fondo
+}
+
+header {
+    background-color: $header;
+}
+
+footer {
+    background-color: $footer;
+}
+
+// 2- Importaciones
+
+// Todo archivo que no sea el main se tiene que llamar con _ adelante y la extension .sccs
+
+@import "./secciones/index.scss";
+
+@import "./secciones/quienes";
+
+@import "./secciones/enfermedades";
+
+@import "./secciones/staff";
+
+@import "./secciones/contactenos"
